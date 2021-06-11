@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget{
   @override 
   Widget build(BuildContext context){
 
+    //la siguiente linea cambia el color de los iconos en la parte superior del celular (cantidad de bateria, wifi etc)
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
 
     return MaterialApp(
